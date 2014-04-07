@@ -63,6 +63,8 @@ print(d0)
 print(d1)
 ```
 
+Just change the import line
+
 Results
 =======
 ```
