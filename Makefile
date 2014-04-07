@@ -25,8 +25,10 @@ AF_PY_LIB=$(AF_PY_PATH)/arrayfire/lib$(AF_PY).so
 LDFLAGS+=-Wl,-rpath,$(AF_LIB_PATH)
 
 run: $(AF_PY_LIB)
-	python examples/np.py
-	LD_LIBRARY_PATH=$(AF_PY_PATH)/arrayfire PYTHONPATH=$(shell pwd) python examples/af.py
+	@echo numpy results
+	@python examples/np.py
+	@echo arrayfire results
+	@LD_LIBRARY_PATH=$(AF_PY_PATH)/arrayfire PYTHONPATH=$(shell pwd) python examples/af.py
 
 all: $(AF_PY_LIB)
 

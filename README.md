@@ -68,7 +68,7 @@ Results
 ```
 $ make run
 
-python examples/np.py
+numpy results
 [[ 0.20857526  0.56517062  0.27214425]
  [ 0.62809292  0.81035116  0.81969087]
  [ 0.79172106  0.55438795  0.64952637]
@@ -84,7 +84,7 @@ python examples/np.py
 [-0.65232397 -1.98099411  4.58652874 -7.49088647 -3.48122846]
 [-1.72971735 -3.57248897 -2.30374182 -1.41295612]
 
-LD_LIBRARY_PATH=/home/pavan/Work/arrayfire_python/arrayfire PYTHONPATH=/home/pavan/Work/arrayfire_python python examples/af.py
+arrayfire results
 [[ 0.74021935  0.9209938   0.03902049]
  [ 0.96896291  0.92514056  0.4463501 ]
  [ 0.66731918  0.10993068  0.4702186 ]
