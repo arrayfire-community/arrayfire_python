@@ -1,12 +1,12 @@
 #!/usr/bin/python
-import arrayfire as np
+import arrayfire as arr
 
-a = np.random.rand(4,3)
-b = np.random.randn(3,5)
-c = np.dot(a,b)
-d = np.sum(c)
-d0 = np.sum(c, 0)
-d1 = np.sum(c, 1)
+a = arr.random.rand(4,3)
+b = arr.random.randn(3,5)
+c = arr.dot(a,b)
+d = arr.sum(c)
+d0 = arr.sum(c, 0)
+d1 = arr.sum(c, 1)
 
 print(a)
 print(b)
