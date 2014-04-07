@@ -83,7 +83,6 @@ python examples/np.py
 -9.01890426742
 [-0.65232397 -1.98099411  4.58652874 -7.49088647 -3.48122846]
 [-1.72971735 -3.57248897 -2.30374182 -1.41295612]
-```
 
 LD_LIBRARY_PATH=/home/pavan/Work/arrayfire_python/arrayfire PYTHONPATH=/home/pavan/Work/arrayfire_python python examples/af.py
 [[ 0.74021935  0.9209938   0.03902049]
